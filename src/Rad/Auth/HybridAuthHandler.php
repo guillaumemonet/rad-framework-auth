@@ -3,6 +3,7 @@
 namespace Rad\Auth;
 
 use Closure;
+use Hybridauth\Hybridauth;
 use Rad\Config\Config;
 
 class AuthHandler implements AuthInterface {
