@@ -1,0 +1,14 @@
+{
+    "name": "rad/rad-framework-auth",
+    "description": "Description of project rad-framework-auth.",
+    "authors": [
+        {
+            "name": "Guillaume Monet",
+            "email": "guillaume.monet@free.fr"
+        }
+    ],
+    "require": {
+        "rad/rad-framework": "dev-master",
+        "hybridauth/hybridauth": "3.0.x-dev"
+    }
+}
