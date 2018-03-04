@@ -1,0 +1,37 @@
+{
+    "auth": {
+        "default": "hybrid",
+        "classname": "Rad\\Auth\\AuthInterface",
+        "handlers": {
+            "nocache": {
+                "classname": "Rad\\Auth\\HybridAuthHandler",
+                "config": {
+                    "callback": "https://example.com/path/to/this/script.php",
+                    "providers": {
+                        "Twitter": {
+                            "enabled": true, 
+                            "keys": {
+                                "key": "...", 
+                                "secret": "..."  
+                            }
+                        },
+                        "Google": {
+                            "enabled": true,
+                            "keys": {
+                                "id": "...",
+                                "secret": "..."
+                            }
+                        },
+                        "Facebook": {
+                            "enabled": true,
+                            "keys": {
+                                "id": "...",
+                                "secret": "..."
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
