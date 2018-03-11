@@ -3,7 +3,7 @@
         "default": "hybrid",
         "classname": "Rad\\Auth\\AuthInterface",
         "handlers": {
-            "nocache": {
+            "hybrid": {
                 "classname": "Rad\\Auth\\HybridAuthHandler",
                 "config": {
                     "callback": "https://example.com/path/to/this/script.php",
