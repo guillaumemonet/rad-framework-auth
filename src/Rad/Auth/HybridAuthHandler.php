@@ -11,7 +11,7 @@ class HybridAuthHandler implements AuthInterface {
     private $hybridauth = null;
 
     public function __construct() {
-        $config = Config::getServiceConfig('auth', 'hybrid');
+        $config = Config::getServiceConfig('auth', 'hybrid')->config;
         $this->hybridauth = new Hybridauth($config);
     }
 
