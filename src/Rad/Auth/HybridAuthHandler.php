@@ -6,7 +6,7 @@ use Closure;
 use Hybridauth\Hybridauth;
 use Rad\Config\Config;
 
-class AuthHandler implements AuthInterface {
+class HybridAuthHandler implements AuthInterface {
 
     private $hybridauth = null;
 
