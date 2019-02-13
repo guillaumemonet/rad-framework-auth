@@ -4,7 +4,7 @@ namespace Rad\Auth;
 
 interface AuthInterface {
 
-    public function getProviderAuthentication($provider);
+    public function getProviderAuthentication(string $provider);
 
-    public function getUserProfile();
+    public function getUserProfile(string $provider, Closure $closure);
 }
